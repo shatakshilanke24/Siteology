@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT_US</title>
+    <!-- <link rel="stylesheet" href="contactc.css"> -->
+    <link rel="stylesheet" href="sites.css">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel=”stylesheet” href=”css/bootstrap.css”>
+      <link rel=”stylesheet” href=”css/bootstrap-responsive.css”>
+      <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="siteology.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background: url(background.jpg) no-repeat top center;
+    background-size: cover;
+    height:100vh;
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0,0,10px rgba(0,0,0,0.13);
+}
+
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+.input-feild,
+.msg{
+    width: 48%;
+}
+
+.input-feild .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 212px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-input-placeholder{
+    color: white;
+}
+
+::-ms-input-paceholder{
+    color: white;
+}
+
+.button{
+    background: rgb(56, 56, 56);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.button a{
+    
+    background: rgb(56, 56, 56);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background:black;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background:black;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background:black;
+    color: white;
+  }
+  .footer{
+      text-align: center;
+  }
+  .fa-whatsapp{
+      color: white;
+      background: black;
+  }
+  .footer h4{
+       color: white;
+  }
+  .footer h5{
+      color: white;
+  }
+  .footer{
+      margin-top: 320px;
+  }
+
+
+    </style>
+  
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <a href="index.html" class="logo d-flex align-items-center">
+            <img src="siteology.png" alt="" height="95px" width="95px">
+            <p>Siteology</p>
+        <!-- <p>Site_o_logy</p> -->
+        <!-- <label class="logo">Site_o_logy</label> -->
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <!-- <li><a href="#">Wesites</a></li> -->
+          <li><a href="contact.html">Contact US</a></li>
+        </ul><br><br><br><br><br><br><br><br><br></nav><br><br><br><br><br><br><br><br>
+
+ <div class="wrapper">
+        <div class="contact-form">
+            <div class="input-feild">
+                <input type="text" class="input" placeholder="NAME">
+                <input type="text"class="input"placeholder="EMAIL_ADDRESS">
+                <input type="text"class="input"placeholder="PHONE_NO">
+                <input type="text"class="input"placeholder="SUBJECT">
+            </div>
+            <div class="msg">
+                <textarea placeholder="MESSAGE"></textarea>
+                <button class="button"><a href="mailto:shatakshilanke7@gmail.com">Submit</a></button>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>Connect with me</h4>
+        <a href="https://www.facebook.com/shatakshi.lanke.1/" class="fa fa-facebook" target="blank"></a>
+        <a href="https://www.instagram.com/shatakshi__1624/" class="fa fa-instagram" target="blank"></a>
+        <a href="https://twitter.com/LankeShatakshi" class="fa fa-twitter" targett="blank"></a>
+        <a href="https://wa.me/7776098919"class="fa fa-whatsapp" target="_blank"></a></div>
+
+    
+</body>
+</html>

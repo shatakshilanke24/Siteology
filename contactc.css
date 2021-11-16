@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto' , sans-serif;
+}
+body{
+    background: url(background.jpg) no-repeat top center;
+    background-size: cover;
+    height:100vh;
+
+}
+.wrapper{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+.contact-form{
+    max-width: 550px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0,0,10px rgba(0,0,0,0.13);
+}
+
+.input-feild{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+}
+.input-feild,
+.msg{
+    width: 48%;
+}
+
+.input-feild .input,
+.msg textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: white;
+    width: 100%;
+}
+
+.msg textarea{
+    height: 212px;
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+
+::-moz-input-placeholder{
+    color: white;
+}
+
+::-ms-input-paceholder{
+    color: white;
+}
+
+.button{
+    background: rgb(56, 56, 56);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+
+}
+.button a{
+    
+    background: rgb(56, 56, 56);
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 30px;
+    text-decoration: none;
+    margin: 5px 2px;
+    color: white;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background:black;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background:black;
+    color: white;
+  }
+  
+  
+  .fa-instagram {
+    background:black;
+    color: white;
+  }
+  .footer{
+      text-align: center;
+  }
+  .fa-whatsapp{
+      color: white;
+      background: black;
+  }
+  .footer h4{
+       color: white;
+  }
+  .footer h5{
+      color: white;
+  }
+  .footer{
+      margin-top: 500px;
+  }
+
